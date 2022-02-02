@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+body
+{
+  font-family: 'Poppins';
+  color: white;
+  background: #7900FF;
+}
+h2{
+  padding-bottom: 20px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 30px;
+  letter-spacing: 5px;
+  background-color: #98bcff;
+  color: navy;
+  width: 500px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.btnn{
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: 0.6s ease;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+}
+.btnn:hover{
+  background-color: #fff;
+  color: #000;
+}
